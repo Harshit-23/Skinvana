@@ -1,0 +1,92 @@
+html, body{
+    height: 100%;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.title{
+    background-color: #3AA6B9;
+}
+
+.nav-link {
+    color: white;
+}
+
+.logo-text:hover{
+    color: black;
+}
+
+.vana{
+    font-weight: 300;
+}
+
+.logo-text{
+    font-family: 'Jost', sans-serif;
+}
+
+.nav{
+    --bs-nav-link-hover-color: black;
+}
+
+.hero-section{
+    background-image: url("../Images/SKINVANA.png");
+    height: 90%;
+    background-size: 180% 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outer-hero{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding-top: 7rem;
+    padding-left: 2rem;
+}
+
+
+.description{
+    color: #6c6565;
+}
+
+/* #features-section{
+    background-color: #FFD0D0;
+} */
+
+.feature{
+    color: #3AA6B9;
+}
+
+.feature-title{
+    color: #3AA6B9;
+}
+
+.feature-heading{
+    color: #3AA6B9;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.gradient-background {
+	background: linear-gradient(-30deg,  #C1ECE4, #3AA6B9, #FFD0D0, #FF9EAA);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
