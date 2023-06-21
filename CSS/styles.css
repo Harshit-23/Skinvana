@@ -69,10 +69,6 @@ html, body{
     color: #3AA6B9;
 }
 
-.nav-link:hover{
-    color: white;
-}
-
 .gradient-background {
 	background: linear-gradient(-30deg,  #C1ECE4, #3AA6B9, #FFD0D0, #FF9EAA);
 	background-size: 400% 400%;
@@ -89,4 +85,8 @@ html, body{
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.footer-link:hover{
+    color: white!important;
 }
