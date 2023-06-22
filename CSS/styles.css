@@ -112,7 +112,7 @@ html, body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../Images/contact-bg.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../Images/contact-bg3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -134,7 +134,7 @@ html, body{
 }
 
 .contactInfo{
-    width: 60%;
+    width: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -172,10 +172,13 @@ html, body{
 
 .contactForm{
     color: black;
-    width: 30%;
-    padding: 40px;
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), #FFD0D0;
+    width: 40%;
+    padding: 20px 40px;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), white;
+    /* background: white; */
+    /* background: #FFECEC; #F5EFE7*/
     border-radius: 8%;
+    box-shadow: 10px 10px 30px rgb(66, 65, 65);
 }
 
 .contactForm h2{
@@ -220,12 +223,16 @@ html, body{
 
 .contactForm .inputBox input[type="submit"]{
     width: 100px;
-    background: #FF9EAA;
+    background: white;
     border: none;
     cursor: pointer;
     padding: 10px;
     border-radius: 7%;
     font-size: 18px;
+}
+
+.contactForm .inputBox input[type="submit"]:hover{
+    box-shadow: -5px 5px 10px grey;
 }
 
 @media (max-width: 991px){
